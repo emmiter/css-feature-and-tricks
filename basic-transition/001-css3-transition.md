@@ -99,10 +99,10 @@ div:hover {
 
 下表列出了所有的`transition`属性
 
-| 属性(Property)                 | 描述(Description)                    |
-| ---------------------------- | ---------------------------------- |
-| `transition`                 | 四个过渡属性的简写。                         |
-| `transition-delay`           | 指定过渡效果的延迟时间(in seconds)            |
-| `transition-duration`        | 指定过渡效果的持续时间(seconds/milliseconds)  |
-| `transition-property`        | 指定过渡属性的名字，如果一次要过渡多个属性的话，属性值之间以逗号分隔 |
-| `transition-timing-function` | 指定过渡的速度曲线                          |
+| 属性(Property)                 | 描述(Description)                          |
+| ---------------------------- | ---------------------------------------- |
+| `transition`                 | 四个过渡属性的简写。                               |
+| `transition-delay`           | 指定过渡效果的延迟时间(in seconds)                  |
+| `transition-duration`        | 指定过渡效果的持续时间(seconds/milliseconds)        |
+| `transition-property`        | 指定过渡属性的名字，如果一次要过渡多个属性的话，属性值之间以逗号分隔。none \| all \| property. `none`:没有属性会获得过渡； `all`:所有属性都将获得过渡效果；property:定义应用过渡效果的 CSS 属性名称列表，再说一次，以逗号分隔。 |
+| `transition-timing-function` | 指定过渡的速度曲线                                |
